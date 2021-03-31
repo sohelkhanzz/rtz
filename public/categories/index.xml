@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Sohel Khan</title>
+    <link>https://sohelkhan.rbind.io/categories/</link>
+      <atom:link href="https://sohelkhan.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Sohel Khan©2012-2021</copyright>
+    <image>
+      <url>https://sohelkhan.rbind.io/media/icon_hu4f06d91b85e9192f7b0cc2ced6c0f41f_107983_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://sohelkhan.rbind.io/categories/</link>
+    </image>
+    
+  </channel>
+</rss>

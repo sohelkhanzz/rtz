@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sohel Khan</title>
+    <link>https://sohelkhan.rbind.io/author/</link>
+      <atom:link href="https://sohelkhan.rbind.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sohel Khan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Sohel Khan©2012-2021</copyright>
+    <image>
+      <url>https://sohelkhan.rbind.io/author/avatar_hue14f2965550bbe5e7602bee640dddf8b_23573_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Sohel Khan</title>
+      <link>https://sohelkhan.rbind.io/author/</link>
+    </image>
+    
+  </channel>
+</rss>

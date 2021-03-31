@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website | Sohel Khan</title>
+    <link>https://sohelkhan.rbind.io/tag/website/</link>
+      <atom:link href="https://sohelkhan.rbind.io/tag/website/index.xml" rel="self" type="application/rss+xml" />
+    <description>Website</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Sohel Khan©2012-2021</copyright><lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sohelkhan.rbind.io/media/icon_hu4f06d91b85e9192f7b0cc2ced6c0f41f_107983_512x512_fill_lanczos_center_2.png</url>
+      <title>Website</title>
+      <link>https://sohelkhan.rbind.io/tag/website/</link>
+    </image>
+    
+    <item>
+      <title>Hugo Add Table Of Contents</title>
+      <link>https://sohelkhan.rbind.io/post/hugo-table-of-contents/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://sohelkhan.rbind.io/post/hugo-table-of-contents/</guid>
+      <description>&lt;h2 id=&#34;method-1&#34;&gt;Method-1&lt;/h2&gt;
+&lt;p&gt;You should follow method 1 if you want a beautiful toc for your page.I&amp;rsquo;ve tried to write here shortly and clearly. follow this instruction step by step and I think It will work.&lt;/p&gt;
+&lt;h2 id=&#34;html&#34;&gt;HTML&lt;/h2&gt;
+&lt;p&gt;The HTML code of a post has different elements like top headers, titles, pictures, and so on. But we just focus only on the content area to divide it into text &lt;code&gt;article&lt;/code&gt; and &lt;code&gt;ToC&lt;/code&gt; nav .In the singl.html file of my Hugo website, I wrap my old content in a new div and add a new nav section for ToC as below&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+&amp;lt;div class=&amp;quot;article-nav&amp;quot; id=&amp;quot;article-nav-id&amp;quot;&amp;gt;
+    &amp;lt;article class=&amp;quot;overlay-top&amp;quot;&amp;gt;
+        {{ .Content }}
+    &amp;lt;/article&amp;gt;
+    &amp;lt;nav class=&amp;quot;hide-on-mobile section-nav&amp;quot;&amp;gt;
+        &amp;lt;h3 class=&amp;quot;ml-1&amp;quot;&amp;gt;Table of contents&amp;lt;/h3&amp;gt;
+        {{ .TableOfContents }}
+    &amp;lt;/nav&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
+&lt;p&gt;I only explain the important CSS parts. To hide the ToC on small screens, I add a media query&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+@media screen and (max-width: 1024px) {
+  .hide-on-mobile {
+      display: none !important;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To style container of article and nav, I use a grid so the left-hand side is the article and the right-hand side is the ToC.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;@media only screen and (min-width: 1025px) {
+  .article-nav {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+    max-width: 100em;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;sticky&lt;/code&gt; position is very important to have a fixed in place ToC:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When a ToC item is marked as active using JavaScript it will be like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;.section-nav li.active &amp;gt; a {
+  color:purple;
+  font-weight: 600;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The nav section (ToC) is styled like below&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+.section-nav {
+  font-size: smaller;
+  padding-left: 0;
+  border-left: 2px solid #efefef;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The links of nav are formatted as below, transition settings make navigation smooth.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+.section-nav a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; 
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Some styling CSS for nav&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #666;
+  font-weight: 600;
+}
+
+nav &amp;gt; ul, ol {
+  list-style: none;
+  margin: 1rem;
+  padding: 0;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;javascript&#34;&gt;JavaScript&lt;/h2&gt;
+&lt;p&gt;Add the below codes somewhere in single.html before the last {{\end}} line. It finds the current section on the screen, and assign class active to its corresponding nav item, and clears it when the section goes out of view.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;lt;script&amp;gt;
+	window.addEventListener(&#39;DOMContentLoaded&#39;, () =&amp;gt; {
+		const observerForTableOfContentActiveState = new IntersectionObserver(entries =&amp;gt; {
+			entries.forEach(entry =&amp;gt; {
+				const id = entry.target.getAttribute(&#39;id&#39;);
+
+				if (entry.intersectionRatio &amp;gt; 0) {					
+					clearActiveStatesInTableOfContents();				
+					document.querySelector(`nav li a[href=&amp;quot;#${id}&amp;quot;]`).parentElement.classList.add(&#39;active&#39;);
+				}
+			});
+		});		
+		document.querySelectorAll(&#39;h1[id],h2[id],h3[id],h4[id]&#39;).forEach((section) =&amp;gt; {
+			observerForTableOfContentActiveState.observe(section);
+		});
+
+	});
+
+	function clearActiveStatesInTableOfContents() {
+		document.querySelectorAll(&#39;nav li&#39;).forEach((section) =&amp;gt; {
+			section.classList.remove(&#39;active&#39;);
+		});
+	}
+&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;method-2easy&#34;&gt;Method-2(Easy)&lt;/h2&gt;
+&lt;p&gt;This method is very easy.you can try it if you don&amp;rsquo;t understand method-1.&lt;/p&gt;
+&lt;h2 id=&#34;customise-html&#34;&gt;Customise HTML&lt;/h2&gt;
+&lt;p&gt;copy this code and  customise your root layouts (not theme layouts) &lt;code&gt;layout/_default/single.html&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+ {{- define &amp;quot;main&amp;quot; -}}
+    {{ if .Params.toc }}
+    &amp;lt;div class=&amp;quot;container-fluid docs&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;row flex-xl-nowrap&amp;quot;&amp;gt;
+          &amp;lt;div class=&amp;quot;d-none d-xl-block col-xl-2 docs-toc&amp;quot;&amp;gt;
+            &amp;lt;ul class=&amp;quot;nav toc-top&amp;quot;&amp;gt;
+              &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; id=&amp;quot;back_to_top&amp;quot; class=&amp;quot;docs-toc-title&amp;quot;&amp;gt;{{ i18n &amp;quot;on_this_page&amp;quot;     }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+            &amp;lt;/ul&amp;gt;
+            {{ .TableOfContents }}
+            {{ partial &amp;quot;docs_toc_foot&amp;quot; . }}
+          &amp;lt;/div&amp;gt;
+          &amp;lt;main class=&amp;quot;col-12 col-md-0 col-xl-10 py-md-3 pl-md-5 docs-content&amp;quot; role=&amp;quot;main&amp;quot;&amp;gt;
+    {{ end }}
+            &amp;lt;article class=&amp;quot;article&amp;quot;&amp;gt;
+                {{ partial &amp;quot;page_header&amp;quot; . }}
+                &amp;lt;div class=&amp;quot;article-container&amp;quot;&amp;gt;
+                  &amp;lt;div class=&amp;quot;article-style&amp;quot;&amp;gt;
+                    {{ .Content }}
+                  &amp;lt;/div&amp;gt;
+                  {{ partial &amp;quot;page_footer&amp;quot; . }}
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/article&amp;gt;
+      {{ if .Params.toc }}
+          &amp;lt;/main&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+      {{ end }}
+    {{- end -}}
+    
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;customise-scss-for-smooth-scroll&#34;&gt;Customise scss for smooth scroll&lt;/h2&gt;
+&lt;p&gt;To enable smooth scrolling is really easy, it you can enable it using a single line of SCSS:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;
+   html {
+       scroll-behavior: smooth;
+   }
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
