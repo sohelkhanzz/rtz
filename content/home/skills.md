@@ -33,9 +33,9 @@ subtitle = ""
 #  description = "advanced"
 
 [[feature]]
-  icon = "r-project"
+  icon = "java"
   icon_pack = "fab"
-  name = "R"
+  name = "Java"
   description = "intermediate"
 
 [[feature]]
