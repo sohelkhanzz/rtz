@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Materials Science & Engineering Bsc Student
+role: Computer Science & Engineering Bsc Student
 
 # Organizations/Affiliations
 organizations:
