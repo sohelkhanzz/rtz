@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science & Engineering Bsc Student
+role: Certified Google Ads Expert
 
 # Organizations/Affiliations
 organizations:
-- name: Bangladesh Open University
-  url: "https://www.bou.ac.bd"
+- name: Freelance Marketplace
+  url: "https://www.upwork.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested about future world.
+bio: Sohel Khan is a Tech writer. Most of the time, he writes about Digit skill technologies.
 interests:
 - Google
 - Software development
@@ -65,9 +65,9 @@ social:
 - icon: bitbucket
   icon_pack: fab
   link: https://bitbucket.org/sohel_khan
-- icon: instagram
+- icon: upwork
   icon_pack: fab
-  link: https://instagram.com/sohelkhan_z
+  link: https://upwork.com/sohelkhannfs
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/sohelkhannfs
@@ -87,20 +87,7 @@ user_groups:
 - Visitors
 ---
 
-🌟 Google Ads that dramatically increases your sales and profit 🌟
-
-My job is to show YOUR offer to your target audience in the right place at the right time and convert users into your customers!
-
-What to expect from the cooperation? I always:
-
-🔸 learn the client’s business and identify areas for improvement 🔸 research the market and analyze competitors 🔸 figure out the client’s goals and project perspectives 🔸 elaborate Google Ads strategy 🔸 optimize campaigns focusing on ROI
-
-What should you know about me?
-
-🔸 Google Ads and Google Analytics certified 🔸 Google Tag Manager (GTM) skilled 🔸 experienced PPC manager of both small and large-scale projects 🔸 PPC Team Lead coordinating the work of PPC department 🔸 responsible for work done
-
-If you have Google Ads account, I can make an audit of existing campaigns and provide you with a detailed report on what should be changed / added to get better results.
-
-Have any questions or want to discuss your projects? Do not hesitate to contact me!
-
-Cheers, Sohel
+Hi! I'm Sohel Khan. I am an online tech writer and certified google ads specialist. As a google ads expert, I help businesses generate  more traffic and leads.There is no question of good luck and "hope marketing". I simply switch  off the ads that don't work and double down on the campaigns that do work! 
+I help  businesses and organizations establish and grow their digital presence. 95% of people who may be mot interested in your service. With modern Ad techniques, I can completely exclude these people and only focus on your target group with specific targetinging! As a result, you will pay less and have better results!
+I can help you setup a new Google Ads account, a review or audit an existing Ads account, optimise on an ongoing  basis.
+If you want to run high performing and profitable campaign then get in touch  with me now.
