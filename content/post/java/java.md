@@ -1,3 +1,21 @@
+---
+
+title: Java Learning
+linktitle: Java Basic
+toc: true
+date: "2022-10-05"
+draft: false
+type: post
+
+tags:
+ - java
+ - oop
+ - programming language
+ - java basic
+
+---
+
+
 # উপক্রমণিকা
 
 ১৯৯৫ সালের ২৩ শে মে। ঝকঝকে ঝলমলে চমৎকার একটি দিন। [জন গেইজ](https://en.wikipedia.org/wiki/John_Gage), ডিরেক্টর অব সান মাইক্রোসিস্টেম সাথে [Marc Andreesen](https://en.wikipedia.org/wiki/Marc_Andreessen), কো ফাওন্ডার এবং ভাইস প্রেসিডেন্ট অব নেটস্কেপ ঘোষণা দেন যে, জাভা টেকনোলজি মোটেই কোন উপকথা নয়, বরং এটিই বাস্তবতা এবং তারা এটি Netscape Navigator এর সাথে সংযুক্ত হতে যাচ্ছে।
