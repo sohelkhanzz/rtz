@@ -20,30 +20,19 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Sohel Khan is a Tech writer. Most of the time, he writes about Digit skill technologies.
 interests:
+- Ethical Hacking
 - Google
-- Software development
-- Software engineering 
-- Computer graphics
-- Bioinformatics
-- Databases and knowledge-bases
-- Machine learning and data mining
-- Natural language processing
-- Planning and decision-making
-- Probabilistic representation and reasoning
-- Reinforcement learning
-- End-user software engineering
-- Software errors and how to deal with them
-- Open source software development
-- Human aspects of programming
-- Language design
-- Program analysis
-- Computer architecture
+- Open Source Software Development
+- Software Engineering 
+- Competitive Programming 
+- Digital Marketing
+- Computer Architecture
 
 Education:
   courses:
   - course: BSc in Computer Science & Engineering
- #   institution: School of Science and Technology
- #   year: 2024
+    institution: School of Science and Technology, BOU
+    year: 2019-2024
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
