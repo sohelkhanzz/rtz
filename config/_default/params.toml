@@ -53,7 +53,7 @@ description = "Computer Science & Engineering Bsc Student"
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r","matlab","c++","python","shell"]  # Add support for highlighting additional languages
+highlight_languages = ["r","matlab","c++","python","shell","java","c"]  # Add support for highlighting additional languages
 highlight_style = "dark"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
@@ -86,7 +86,7 @@ phone = "+8801639818389"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Madhukhali-04", city = "Dhaka", region = "", postcode = "7850", country = "Bangladesh", country_code = "BD"}
+address = {street = "Madhukhali Bazar", city = "Dhaka", region = "", postcode = "7850", country = "Bangladesh", country_code = "BD"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -267,7 +267,7 @@ plugins_js  = []
 ############################
 [marketing]
   google_analytics = "UA-244277558-1"
-  #google_tag_manager = ""
+  google_tag_manager = "GTM-MPZ273X"
 
 ############################
 ## Content Management System
