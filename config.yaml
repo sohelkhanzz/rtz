@@ -1,7 +1,7 @@
 theme: "starter-academic"
 title: "Sohel Khan"
-baseurl: "https://sohelkhan.rbind.io/"
-copyright: "Sohel Khan&copy;2012-2021"
+baseurl: "https://sohelkhan.netlify.app/"
+copyright: "Sohel Khan&copy;2019-2022"
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
