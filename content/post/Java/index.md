@@ -56,7 +56,7 @@ JDK is sofware development environment  which is used to develop java applets an
 # Java Hello_world code
 
 Hello_World.java
-%[jdoodle.com/a/5fNt]
+%[https://jdoodle.com/a/5fNt]
 ```
 \\ my first java program
 public class Hello_World{
