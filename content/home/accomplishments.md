@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "sept 2022"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -19,33 +19,52 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Google"
+  organization_url = "https://google.com"
+  title = "Google Ads Search Certification"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
+  certificate_url = "https://skillshop.exceedlms.com/student/award/kfK2iBpbReafGD9h5T5831TB"
+  date_start = "2022-09-25"
+  date_end = "2023-09-25"
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Google"
+  organization_url = "https://google.com"
+  title = "Google Ads Search Certification"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = "https://skillshop.exceedlms.com/student/award/kfK2iBpbReafGD9h5T5831TB"
+  date_start = "2022-09-25"
+  date_end = "2023-09-25"
   description = ""
 
+[[item]]
+  organization = "Google"
+  organization_url = "https://google.com"
+  title = "Google Ads Display Certification"
+  url = ""
+  certificate_url = "https://skillshop.exceedlms.com/student/award/kfK2iBpbReafGD9h5T5831TB"
+  date_start = "2022-09-25"
+  date_end = "2023-09-25"
+  description = ""
+
+[[item]]
+  organization = "Google"
+  organization_url = "https://google.com"
+  title = "Google Ads App Certification"
+  url = ""
+  certificate_url = "https://skillshop.exceedlms.com/student/award/kfK2iBpbReafGD9h5T5831TB"
+  date_start = "2022-09-25"
+  date_end = "2023-09-25"
+  description = ""
+
+[[item]]
+  organization = "Google"
+  organization_url = "https://google.com"
+  title = "Google Analytics Certification"
+  url = ""
+  certificate_url = "https://skillshop.exceedlms.com/student/award/kfK2iBpbReafGD9h5T5831TB"
+  date_start = "2022-09-25"
+  date_end = "2023-09-25"
+  description = ""
 +++
