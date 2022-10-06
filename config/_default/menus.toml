@@ -15,16 +15,10 @@
   url = ""
   weight = 2
 
-[[main]]
-  name = "Digital Marketing"
-  parent = "resources"
-  identifer = "dm"
-  url = ""
-  weight = 1
 
 [[main]]
   name = "Become a Google Ads Expert"
-  parent = "dm"
+  parent = "resources"
   url = "post/ads"
   weight = 1
 
