@@ -15,13 +15,24 @@
   url = ""
   weight = 2
 
+[[main]]
+  name = "Digital Marketing"
+  parent = "resources"
+  identifer = "dm"
+  url = ""
+  weight = 1
 
+[[main]]
+  name = "Become a Google Ads Expert"
+  parent = "dm"
+  url = "post/ads"
+  weight = 1
 
 [[main]]
   name = "Hugo Add Table of Contents"
   parent = "resources"
   url = "post/Hugo-Table-Of-Contents"
-  weight = 1
+  weight = 3
 [[main]]
   name = "Java learning"
   parent = "resources"
