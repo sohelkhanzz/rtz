@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = ""
 subtitle = ""
 
 [content]
@@ -67,6 +67,7 @@ subtitle = ""
 
  # CSS class.
  css_class = ""
+%[https://m.facebook.com/story.php?story_fbid=pfbid02Me5VyzRWVNFsot5Uv1cdNZ6mZUk2a2QCYpovaXpTkcZCB9sci4nHdM8VQmKzf3rjl&id=100055539648021&eav=AfarZE1jhIjbJnvSmhZ1mmQkGvrontLDpq9Hx7L28-pM33qTSxs0y3gfZNeypd_eldM&m_entstream_source=timeline&anchor_composer=false&paipv=0]
 
 +++
 
