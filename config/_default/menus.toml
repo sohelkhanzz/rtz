@@ -26,14 +26,40 @@
   name = "Hugo Add Table of Contents"
   parent = "resources"
   url = "post/Hugo-Table-Of-Contents"
-  weight = 3
+  weight = 2
 [[main]]
   name = "Java learning"
   parent = "resources"
   url = "post/Java"
-  weight = 2
+  weight = 3
 
+[[main]]
+  name = "Data Structure"
+  parent = "resources"
+  url = "post/data_structure"
+  weight = 4
 
+[[main]]
+  name = "Graph in Computer Science"
+  parent = "resources"
+  url = "post/graph"
+  weight = 5
+[[main]]
+  name = "Tree in Computer Science"
+  parent = "resources"
+  url = "post/tree"
+  weight = 6
+[[main]]
+  name = "Computer Architecture"
+  parent = "resources"
+  url = "post/computer_architecture"
+  weight = 7
+
+[[main]]
+  name = "Competitive Programming"
+  parent = "resources"
+  url = "post/competitive_programming"
+  weight = 8
 
 
 
