@@ -18,7 +18,7 @@ organizations:
   url: "https://www.upwork.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Sohel Khan is a Tech writer. Most of the time, he writes about Digit skill technologies.
+bio: Sohel Khan is a Tech writer. Most of the time, he writes about Digital skill technologies.
 interests:
 - Ethical Hacking
 - Google
