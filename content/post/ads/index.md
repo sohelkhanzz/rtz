@@ -25,8 +25,9 @@ Google Ads is the best way businesses advertise to their online customers. If yo
  There is common prase "Google it" , "I'll google it", ", "You can google it" when we search something on internet. We use 'google' instead of 'search' word. Google controls more than 90% of the search engine market share worldwide. When we write something in google search queries, Google software named Google web crawlers or Google bots crawls all over the google data and show the best indexes according to your search  queries.
 # Steps to follow to become Ads Expert
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1jz4y1f7yo&page=1&high_quality=1&danmaku=0"
-        scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+{{< youtube 09jf3ow9jfw >}}
+
 
 First of all you need to learn how Google ads work. Google ads follow pay per click (PPC) or cost per click (CPC) that means advertisers pay for each click their ads recieve. Google currenly supports following types of campaigns.
 - Search Campaigns
