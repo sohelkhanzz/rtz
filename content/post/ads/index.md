@@ -26,7 +26,7 @@ Google Ads is the best way businesses advertise to their online customers. If yo
 # Steps to follow to become Ads Expert
 
 
-{{< youtube 09jf3ow9jfw >}}
+{{< youtube 24EJrGo8_68 >}}
 
 
 First of all you need to learn how Google ads work. Google ads follow pay per click (PPC) or cost per click (CPC) that means advertisers pay for each click their ads recieve. Google currenly supports following types of campaigns.
