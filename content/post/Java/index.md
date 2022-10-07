@@ -54,9 +54,9 @@ JRE is implement  of JVM. It contains a set of libraries and other files which u
 JDK is sofware development environment  which is used to develop java applets and apps. It contains JRE and other development tools.
 
 # Java Hello_world code
-
-Hello_World.java
 `video: https://www.youtube.com/watch?v=1JWOVGzzgMc
+Hello_World.java
+
 ```
 \\ my first java program
 public class Hello_World{
