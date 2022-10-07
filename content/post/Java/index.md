@@ -56,12 +56,7 @@ JDK is sofware development environment  which is used to develop java applets an
 # Java Hello_world code
 
 Hello_World.java
-%[https://www.youtube.com/watch?v=oavMtUWDBTM]
-%[https://jdoodle.com/a/5fNt]
-%[https://www.youtube.com/watch?v=oavMtUWDBTM]
-<div data-pym-src="https://www.jdoodle.com/embed/v0/3a1X"></div>
-     <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
-    
+`video: https://www.youtube.com/watch?v=1JWOVGzzgMc
 ```
 \\ my first java program
 public class Hello_World{
