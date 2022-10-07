@@ -59,7 +59,9 @@ Hello_World.java
 %[https://www.youtube.com/watch?v=oavMtUWDBTM]
 %[https://jdoodle.com/a/5fNt]
 %[https://www.youtube.com/watch?v=oavMtUWDBTM]
-
+<div data-pym-src="https://www.jdoodle.com/embed/v0/3a1X"></div>
+     <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
+    
 ```
 \\ my first java program
 public class Hello_World{
